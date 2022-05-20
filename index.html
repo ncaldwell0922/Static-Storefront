@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Static Storefront Assignment</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Static Storefront Assignment</title>
+    </head>
+<body>
 <header>
     <div class="topnav">
         <a class="active" href="#home">Home</a>
@@ -14,7 +15,6 @@
         <a href="#faq">FAQ</a>
         <div class ="fromthefarm">
             <button class="dropbtn">From the Farm
-                <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
                 <a href="#">Seeds</a>
@@ -25,9 +25,77 @@
         </div>
         <a href="#about" class="split">Help</a>
         <input type="text" placeholder="Search">
+        <img src="./assets/basketicon.jpg" alt="Basket Icon" height="38" width="38" />
+    </div>
+    <div class="name">
+        <h1>Heirloom</h1>
+        <h2>Heaven</h2>
     </div>
 </header>
-<body>
-    
+    <div>
+        <section id="sidebar">
+            <h1>Garden Inspiration</h1>
+            <hr />
+            <img src="./assets/gardendesign.jpg" alt="Design1">
+            <hr />
+            <img src="./assets/gardendesign2.jpeg" alt="Design2">
+            <hr />
+            <img src="./assets/gardendesign3.jpg" alt="Design3">
+        </section>
+    </div>
+    <section id="main" class="contentWrapper">
+        <h1>Top Seed Selections</h1>
+        <div class="panel">
+            <img src="./assets/tomatoes.jpg" class="vegType" alt = "TomatoBlend" />
+            <h2>Heirloom Tomato Blend</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/zucchini.jpg" class="vegType" alt = "ForhookZucchini" />
+            <h2>Fordhook Zucchini</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/carrot.jpg" class="vegType" alt = "RainbowCarrot" />
+            <h2>Rainbow Carrot Blend</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/pumpkin.jpg" class="vegType" alt = "BigMax" />
+            <h2>Heirloom Pumpkin - "Big Max"</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/watermelon.jpg" class="vegType" alt = "KlondikeWatermelon" />
+            <h2>Klondike Blue Ribbon Stripped Watermelon</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+        <div class="panel">
+            <img src="./assets/basil.jpg" class="vegType" alt = "MammothBasil" />
+            <h2>Mammoth Basil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, exercitationem magnam tenetur fugit asperiores harum deserunt totam eius cumque nisi, voluptates excepturi magni. Ipsam ad aspernatur nesciunt exercitationem commodi voluptas!</p>
+            <button>Add To Basket</button>
+        </div>
+    </section>
+    <footer>
+        <div class="clear">
+            <div class="bottomnav">
+                <ul id="menuFooter">
+                    <span>&copy;2022</span>
+                    <li><a href="#contactus">Contact Us</a></li>
+                    <li>Check Us Out At: </li>
+                    <li><a href="#"><img src="./assets/facebook.png" alt="Facebook" class="socialIcon"></a></li>
+                    <li><a href="#"><img src="./assets/instagram.png" alt="Instagram" class="socialIcon"></a></li>
+                    <li><a href="#"><img src="./assets/twitter.png" alt="Twitter" class="socialIcon"></a></li>
+                    <li><a href="#"><img src="./assets/youtube.png" alt="YouTube" class="socialIcon"></a></li>
+                </ul>
+            </div>
+        </div>    
+    </footer>
 </body>
 </html>
